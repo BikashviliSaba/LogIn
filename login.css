@@ -1,0 +1,239 @@
+/* I made styles for container */
+.container {
+  width: 313px;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  backdrop-filter: blur(2px);
+}
+
+/* I made styles for header two */
+.headertwo {
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: 32px;
+  color: #b3b3b3;
+  cursor: default;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+/* I made general styles for email password and submit windows */
+.login {
+  display: block;
+  width: 270px;
+  height: 45px;
+  border-radius: 12px;
+  border: 3px solid #b3b3b3;
+  margin-top: 27px;
+}
+
+.password {
+  margin-top: 15px;
+}
+
+/* I made styles for submit button */
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+.submit {
+  font-family: "Outfit", sans-serif;
+  width: 180px;
+  height: 45px;
+  border-radius: 120px;
+  background-color: #b3b3b3;
+  color: #f0f0f0;
+  font-weight: bold;
+  font-size: 23px;
+  border: none;
+  margin-top: 28px;
+}
+
+/* I made general styles for links */
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+.link {
+  font-family: "Outfit", sans-serif;
+  color: #4984f1;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 48px;
+}
+
+/* I made styles for Chekbox text */
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+.remember {
+  display: inline-block;
+  color: #2e2e2e;
+  font-size: 12px;
+  font-family: "Outfit", sans-serif;
+}
+
+/* I made styles for avatar image */
+.img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-top: 34px;
+}
+
+/* I give positions to positioner container */
+.bigbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 91vh;
+}
+
+.chekbox {
+  margin-top: 6px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+.no {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.sign {
+  font-weight: bold;
+  text-decoration: none;
+  color: #b3b3b3;
+  font-size: 18px;
+}
+
+/* h1{
+  font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    color: #b3b3b3;
+    text-shadow: white 2px 2px;
+    display: block;
+    font-size: 27px;
+    float: left;
+    padding: 15px;
+}
+
+li{
+  margin: 5px;
+  display: inline-block;
+}
+
+ul{
+  padding: 15px;
+} */
+
+@media (min-width: 769px) {
+  .container {
+    width: 350px;
+    height: 540px;
+    box-shadow: none;
+    border-radius: 15px;
+    border: 2px solid #b3b3b3;
+    backdrop-filter: blur(18px);
+  }
+
+  .login {
+    width: 310px;
+  }
+
+  .password {
+    margin-top: 10px;
+  }
+
+  .submit {
+    width: 160px;
+    height: 47px;
+    margin-top: 30px;
+    background-color: #b3b3b3;
+    cursor: pointer;
+  }
+
+  .link {
+    font-size: 18px;
+    display: inline-block;
+  }
+
+  .img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .headertwo {
+    font-size: 40px;
+    letter-spacing: 0.2px;
+    color: #b3b3b3;
+    cursor: default;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-weight: 500;
+  }
+
+  .link {
+    font-size: 14px;
+    margin-left: 82px;
+    margin-top: 14px;
+  }
+
+  @import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+  .no {
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    margin-top: 30px;
+  }
+
+  .sign {
+    font-weight: bold;
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: 18px;
+  }
+
+  .other:hover {
+    text-decoration: underline solid #b3b3b3;
+  }
+
+  /* I made submit button hover styles */
+  .submit:hover {
+    border: 2px solid #f0f0f0;
+  }
+
+  .nav {
+    backdrop-filter: blur(2px);
+  }
+
+  ul {
+    float: right;
+    margin-right: 60px;
+  }
+
+  @import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+  li {
+    display: inline-block;
+    padding: 7px 13px;
+    color: #f0f0f0;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Outfit", sans-serif;
+    cursor: pointer;
+    transition: 0.7s;
+  }
+
+  @import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+  h1 {
+    display: inline-block;
+    padding: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    color: #b3b3b3;
+    letter-spacing: -0.5px;
+    cursor: default;
+    text-shadow: white 2px 2px;
+    transition: 1s;
+  }
+
+  li:hover {
+    background-color: #b5b5b5;
+    border-radius: 5px;
+  }
+}
